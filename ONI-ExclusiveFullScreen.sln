@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ONI-ExclusiveFullScreen", "ONI-ExclusiveFullScreen\ONI-ExclusiveFullScreen.csproj", "{67703607-66EA-4A45-A7CD-2A1459344DAD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67703607-66EA-4A45-A7CD-2A1459344DAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67703607-66EA-4A45-A7CD-2A1459344DAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67703607-66EA-4A45-A7CD-2A1459344DAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67703607-66EA-4A45-A7CD-2A1459344DAD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9DABF795-60CD-4686-BC10-94AB4A3C8EF7}
+	EndGlobalSection
+EndGlobal
