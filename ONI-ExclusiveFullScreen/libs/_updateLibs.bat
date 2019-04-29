@@ -1,9 +1,7 @@
-@ECHO OFF
+@echo off
 
-SET DLL_PATH=\OxygenNotIncluded_Data\Managed
+set PATH=%ONI_PATH%\OxygenNotIncluded_Data\Managed
 
-SET PATH=%ONI_PATH%%DLL_PATH%
-
-XCOPY "%PATH%\UnityEngine*.dll" .\ /Y
-XCOPY "%PATH%\Assembly-CSharp*.dll" .\ /Y
-XCOPY "%PATH%\0Harmony.dll" .\ /Y
+xcopy "%PATH%\UnityEngine*.dll" %~dp0 /Y
+xcopy "%PATH%\Assembly-CSharp*.dll" %~dp0 /Y
+xcopy "%PATH%\0Harmony.dll" %~dp0 /Y
