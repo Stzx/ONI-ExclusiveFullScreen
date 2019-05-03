@@ -60,6 +60,6 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>xcopy "$(TargetDir.TrimEnd('\'))" "%25ONI_PATH%25\Mods\$(ProjectName)" /Y /S /E /I</PostBuildEvent>
+    <PostBuildEvent>xcopy "$(TargetDir.TrimEnd('\'))" "%25ONI_PATH%25\Mods\$(ProjectName)" /Y /S /E /I &amp;&amp; start "" steam://rungameid/457140</PostBuildEvent>
   </PropertyGroup>
 </Project>
